@@ -3,7 +3,7 @@ ParallaxCollectionCoordinator
 
 A Tool for iOS which Applies a Parallax Effect to Multiple Collection Views.
 
-![image](http://i.imgur.com/DZdMuCJ.gif)
+![image](http://i.imgur.com/8r61PZt.gif)
 
 ##How To Use
 1. Add the files from the `Coordinator` group to your project.
