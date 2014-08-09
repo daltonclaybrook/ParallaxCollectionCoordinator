@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE7DED171995F89E00017C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7DED161995F89E00017C57 /* Foundation.framework */; };
+		BE7DED191995F89E00017C57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7DED181995F89E00017C57 /* CoreGraphics.framework */; };
+		BE7DED1B1995F89E00017C57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7DED1A1995F89E00017C57 /* UIKit.framework */; };
+		BE7DED211995F89E00017C57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE7DED1F1995F89E00017C57 /* InfoPlist.strings */; };
+		BE7DED231995F89E00017C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DED221995F89E00017C57 /* main.m */; };
+		BE7DED271995F89E00017C57 /* SFSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DED261995F89E00017C57 /* SFSAppDelegate.m */; };
+		BE7DED2A1995F89E00017C57 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7DED281995F89E00017C57 /* Main_iPhone.storyboard */; };
+		BE7DED2D1995F89E00017C57 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7DED2B1995F89E00017C57 /* Main_iPad.storyboard */; };
+		BE7DED301995F89E00017C57 /* SFSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DED2F1995F89E00017C57 /* SFSViewController.m */; };
+		BE7DED321995F89E00017C57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7DED311995F89E00017C57 /* Images.xcassets */; };
+		BE7DED391995F89E00017C57 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7DED381995F89E00017C57 /* XCTest.framework */; };
+		BE7DED3A1995F89E00017C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7DED161995F89E00017C57 /* Foundation.framework */; };
+		BE7DED3B1995F89E00017C57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7DED1A1995F89E00017C57 /* UIKit.framework */; };
+		BE7DED431995F89E00017C57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE7DED411995F89E00017C57 /* InfoPlist.strings */; };
+		BE7DED451995F89E00017C57 /* ParallaxCollectionCoordinatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DED441995F89E00017C57 /* ParallaxCollectionCoordinatorTests.m */; };
+		BE7DED531995F8B800017C57 /* SFSSmallPageCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DED501995F8B800017C57 /* SFSSmallPageCollectionController.m */; };
+		BE7DED541995F8B800017C57 /* SFSParallaxCollectionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7DED521995F8B800017C57 /* SFSParallaxCollectionCoordinator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE7DED3C1995F89E00017C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7DED0B1995F89E00017C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7DED121995F89E00017C57;
+			remoteInfo = ParallaxCollectionCoordinator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE7DED131995F89E00017C57 /* ParallaxCollectionCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxCollectionCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7DED161995F89E00017C57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE7DED181995F89E00017C57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE7DED1A1995F89E00017C57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE7DED1E1995F89E00017C57 /* ParallaxCollectionCoordinator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParallaxCollectionCoordinator-Info.plist"; sourceTree = "<group>"; };
+		BE7DED201995F89E00017C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE7DED221995F89E00017C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE7DED241995F89E00017C57 /* ParallaxCollectionCoordinator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParallaxCollectionCoordinator-Prefix.pch"; sourceTree = "<group>"; };
+		BE7DED251995F89E00017C57 /* SFSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSAppDelegate.h; sourceTree = "<group>"; };
+		BE7DED261995F89E00017C57 /* SFSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFSAppDelegate.m; sourceTree = "<group>"; };
+		BE7DED291995F89E00017C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BE7DED2C1995F89E00017C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BE7DED2E1995F89E00017C57 /* SFSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSViewController.h; sourceTree = "<group>"; };
+		BE7DED2F1995F89E00017C57 /* SFSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFSViewController.m; sourceTree = "<group>"; };
+		BE7DED311995F89E00017C57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE7DED371995F89E00017C57 /* ParallaxCollectionCoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxCollectionCoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7DED381995F89E00017C57 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE7DED401995F89E00017C57 /* ParallaxCollectionCoordinatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParallaxCollectionCoordinatorTests-Info.plist"; sourceTree = "<group>"; };
+		BE7DED421995F89E00017C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE7DED441995F89E00017C57 /* ParallaxCollectionCoordinatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallaxCollectionCoordinatorTests.m; sourceTree = "<group>"; };
+		BE7DED4F1995F8B800017C57 /* SFSSmallPageCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSSmallPageCollectionController.h; sourceTree = "<group>"; };
+		BE7DED501995F8B800017C57 /* SFSSmallPageCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSSmallPageCollectionController.m; sourceTree = "<group>"; };
+		BE7DED511995F8B800017C57 /* SFSParallaxCollectionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSParallaxCollectionCoordinator.h; sourceTree = "<group>"; };
+		BE7DED521995F8B800017C57 /* SFSParallaxCollectionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSParallaxCollectionCoordinator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7DED101995F89E00017C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DED191995F89E00017C57 /* CoreGraphics.framework in Frameworks */,
+				BE7DED1B1995F89E00017C57 /* UIKit.framework in Frameworks */,
+				BE7DED171995F89E00017C57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7DED341995F89E00017C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DED391995F89E00017C57 /* XCTest.framework in Frameworks */,
+				BE7DED3B1995F89E00017C57 /* UIKit.framework in Frameworks */,
+				BE7DED3A1995F89E00017C57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE7DED0A1995F89E00017C57 = {
+			isa = PBXGroup;
+			children = (
+				BE7DED1C1995F89E00017C57 /* ParallaxCollectionCoordinator */,
+				BE7DED3E1995F89E00017C57 /* ParallaxCollectionCoordinatorTests */,
+				BE7DED151995F89E00017C57 /* Frameworks */,
+				BE7DED141995F89E00017C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE7DED141995F89E00017C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DED131995F89E00017C57 /* ParallaxCollectionCoordinator.app */,
+				BE7DED371995F89E00017C57 /* ParallaxCollectionCoordinatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE7DED151995F89E00017C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DED161995F89E00017C57 /* Foundation.framework */,
+				BE7DED181995F89E00017C57 /* CoreGraphics.framework */,
+				BE7DED1A1995F89E00017C57 /* UIKit.framework */,
+				BE7DED381995F89E00017C57 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE7DED1C1995F89E00017C57 /* ParallaxCollectionCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DED4E1995F8A600017C57 /* Coordinator */,
+				BE7DED251995F89E00017C57 /* SFSAppDelegate.h */,
+				BE7DED261995F89E00017C57 /* SFSAppDelegate.m */,
+				BE7DED281995F89E00017C57 /* Main_iPhone.storyboard */,
+				BE7DED2B1995F89E00017C57 /* Main_iPad.storyboard */,
+				BE7DED2E1995F89E00017C57 /* SFSViewController.h */,
+				BE7DED2F1995F89E00017C57 /* SFSViewController.m */,
+				BE7DED311995F89E00017C57 /* Images.xcassets */,
+				BE7DED1D1995F89E00017C57 /* Supporting Files */,
+			);
+			path = ParallaxCollectionCoordinator;
+			sourceTree = "<group>";
+		};
+		BE7DED1D1995F89E00017C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DED1E1995F89E00017C57 /* ParallaxCollectionCoordinator-Info.plist */,
+				BE7DED1F1995F89E00017C57 /* InfoPlist.strings */,
+				BE7DED221995F89E00017C57 /* main.m */,
+				BE7DED241995F89E00017C57 /* ParallaxCollectionCoordinator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE7DED3E1995F89E00017C57 /* ParallaxCollectionCoordinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DED441995F89E00017C57 /* ParallaxCollectionCoordinatorTests.m */,
+				BE7DED3F1995F89E00017C57 /* Supporting Files */,
+			);
+			path = ParallaxCollectionCoordinatorTests;
+			sourceTree = "<group>";
+		};
+		BE7DED3F1995F89E00017C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DED401995F89E00017C57 /* ParallaxCollectionCoordinatorTests-Info.plist */,
+				BE7DED411995F89E00017C57 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE7DED4E1995F8A600017C57 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BE7DED4F1995F8B800017C57 /* SFSSmallPageCollectionController.h */,
+				BE7DED501995F8B800017C57 /* SFSSmallPageCollectionController.m */,
+				BE7DED511995F8B800017C57 /* SFSParallaxCollectionCoordinator.h */,
+				BE7DED521995F8B800017C57 /* SFSParallaxCollectionCoordinator.m */,
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE7DED121995F89E00017C57 /* ParallaxCollectionCoordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7DED481995F89E00017C57 /* Build configuration list for PBXNativeTarget "ParallaxCollectionCoordinator" */;
+			buildPhases = (
+				BE7DED0F1995F89E00017C57 /* Sources */,
+				BE7DED101995F89E00017C57 /* Frameworks */,
+				BE7DED111995F89E00017C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaxCollectionCoordinator;
+			productName = ParallaxCollectionCoordinator;
+			productReference = BE7DED131995F89E00017C57 /* ParallaxCollectionCoordinator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE7DED361995F89E00017C57 /* ParallaxCollectionCoordinatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7DED4B1995F89E00017C57 /* Build configuration list for PBXNativeTarget "ParallaxCollectionCoordinatorTests" */;
+			buildPhases = (
+				BE7DED331995F89E00017C57 /* Sources */,
+				BE7DED341995F89E00017C57 /* Frameworks */,
+				BE7DED351995F89E00017C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7DED3D1995F89E00017C57 /* PBXTargetDependency */,
+			);
+			name = ParallaxCollectionCoordinatorTests;
+			productName = ParallaxCollectionCoordinatorTests;
+			productReference = BE7DED371995F89E00017C57 /* ParallaxCollectionCoordinatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE7DED0B1995F89E00017C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SFS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Space Factory Studios";
+				TargetAttributes = {
+					BE7DED361995F89E00017C57 = {
+						TestTargetID = BE7DED121995F89E00017C57;
+					};
+				};
+			};
+			buildConfigurationList = BE7DED0E1995F89E00017C57 /* Build configuration list for PBXProject "ParallaxCollectionCoordinator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE7DED0A1995F89E00017C57;
+			productRefGroup = BE7DED141995F89E00017C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE7DED121995F89E00017C57 /* ParallaxCollectionCoordinator */,
+				BE7DED361995F89E00017C57 /* ParallaxCollectionCoordinatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE7DED111995F89E00017C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DED2D1995F89E00017C57 /* Main_iPad.storyboard in Resources */,
+				BE7DED321995F89E00017C57 /* Images.xcassets in Resources */,
+				BE7DED2A1995F89E00017C57 /* Main_iPhone.storyboard in Resources */,
+				BE7DED211995F89E00017C57 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7DED351995F89E00017C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DED431995F89E00017C57 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7DED0F1995F89E00017C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DED531995F8B800017C57 /* SFSSmallPageCollectionController.m in Sources */,
+				BE7DED231995F89E00017C57 /* main.m in Sources */,
+				BE7DED271995F89E00017C57 /* SFSAppDelegate.m in Sources */,
+				BE7DED301995F89E00017C57 /* SFSViewController.m in Sources */,
+				BE7DED541995F8B800017C57 /* SFSParallaxCollectionCoordinator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7DED331995F89E00017C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7DED451995F89E00017C57 /* ParallaxCollectionCoordinatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE7DED3D1995F89E00017C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7DED121995F89E00017C57 /* ParallaxCollectionCoordinator */;
+			targetProxy = BE7DED3C1995F89E00017C57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE7DED1F1995F89E00017C57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7DED201995F89E00017C57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE7DED281995F89E00017C57 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7DED291995F89E00017C57 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BE7DED2B1995F89E00017C57 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7DED2C1995F89E00017C57 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BE7DED411995F89E00017C57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7DED421995F89E00017C57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE7DED461995F89E00017C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE7DED471995F89E00017C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE7DED491995F89E00017C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParallaxCollectionCoordinator/ParallaxCollectionCoordinator-Prefix.pch";
+				INFOPLIST_FILE = "ParallaxCollectionCoordinator/ParallaxCollectionCoordinator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE7DED4A1995F89E00017C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParallaxCollectionCoordinator/ParallaxCollectionCoordinator-Prefix.pch";
+				INFOPLIST_FILE = "ParallaxCollectionCoordinator/ParallaxCollectionCoordinator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE7DED4C1995F89E00017C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ParallaxCollectionCoordinator.app/ParallaxCollectionCoordinator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParallaxCollectionCoordinator/ParallaxCollectionCoordinator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ParallaxCollectionCoordinatorTests/ParallaxCollectionCoordinatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BE7DED4D1995F89E00017C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ParallaxCollectionCoordinator.app/ParallaxCollectionCoordinator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ParallaxCollectionCoordinator/ParallaxCollectionCoordinator-Prefix.pch";
+				INFOPLIST_FILE = "ParallaxCollectionCoordinatorTests/ParallaxCollectionCoordinatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7DED0E1995F89E00017C57 /* Build configuration list for PBXProject "ParallaxCollectionCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DED461995F89E00017C57 /* Debug */,
+				BE7DED471995F89E00017C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7DED481995F89E00017C57 /* Build configuration list for PBXNativeTarget "ParallaxCollectionCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DED491995F89E00017C57 /* Debug */,
+				BE7DED4A1995F89E00017C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE7DED4B1995F89E00017C57 /* Build configuration list for PBXNativeTarget "ParallaxCollectionCoordinatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DED4C1995F89E00017C57 /* Debug */,
+				BE7DED4D1995F89E00017C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE7DED0B1995F89E00017C57 /* Project object */;
+}
